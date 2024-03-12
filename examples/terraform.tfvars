@@ -4,6 +4,8 @@ enable_dns_support = true
 
 enable_dns_hostnames = true
 
+aws_provider_region = "us-east-1"
+
 vpc_tags = {
   Name = "phillip-project"
 }

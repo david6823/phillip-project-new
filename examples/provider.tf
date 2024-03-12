@@ -12,4 +12,5 @@ terraform {
 
 provider "aws" {
   region = var.aws_provider_region
+  profile = "project-creds"
 }
